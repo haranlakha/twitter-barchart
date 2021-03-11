@@ -27,5 +27,5 @@ image = "twitterStats.png"
 status = "@%s's Twitter stats" % (user.screen_name)
 api.update_with_media(image, status)
 
-plt.show()
+plt.show() #shows bar chart 
 
