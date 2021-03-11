@@ -20,11 +20,11 @@ names = ['Tweets', 'Likes', 'Following']
 values = [tweets,likes,following]
 
 plt.bar(names, values, color = ['red', 'green', 'blue']) #colours of each bar
-plt.suptitle('@username user stats') #title of the bar chart
+plt.suptitle("@%s's user stats" % user.screen_name) #title of the bar chart
 plt.savefig('twitterStats.png') #saves figure as a .png file
 
 image = "twitterStats.png"
-status = "@username's Twitter stats"
+status = "@%s's Twitter stats" % (user.screen_name)
 api.update_with_media(image, status)
 
 plt.show()
