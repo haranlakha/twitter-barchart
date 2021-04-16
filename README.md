@@ -13,7 +13,3 @@ You will need to import [Tweepy](https://www.tweepy.org/) and [Matplotlib](https
 # Running the program
 
 To run this program simply type in the terminal: python3 TwitterBarChart.py
-
-## Author
-
-* **Haran Lakha** - [GitHub](https://github.com/haranlakha) - [Twitter](https://twitter.com/haranlakha)
