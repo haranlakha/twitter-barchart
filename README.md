@@ -1,15 +1,29 @@
-# Twitter Bar Chart program
+# Twitter bar chart
+
 Twitter bot which creates a bar chart of your tweets, likes and follows and posts it to your timeline.
 
-# Installation
-Clone this repository or download the .zip file.
+## Prerequisites
 
-Once it has downloaded you will need to add your own authentication keys and tokens to the TwitterCredentials.py file.
+### Authentication
 
-The authetication tokens and keys for Twitter can be found when you create an app on https://developer.twitter.com/
+Generate your [Twitter authentication tokens](https://developer.twitter.com/) to add to the file TwitterCredentials.py.
 
-You will need to import [Tweepy](https://www.tweepy.org/) and [Matplotlib](https://matplotlib.org/) to run this program.
+### Import libraries
 
-# Running the program
+Import [Tweepy](https://www.tweepy.org/):
+```
+pip install tweepy
+```
+Import [Matplotlib](https://matplotlib.org/):
+```
+pip install matplotlib
+```
+## Installation
+```
+git clone https://github.com/haranlakha/twitter-barchart.git
+```
 
-To run this program simply type in the terminal: python3 TwitterBarChart.py
+## Run code
+```
+python3 TwitterBarChart.py
+```
